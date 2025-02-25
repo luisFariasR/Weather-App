@@ -6,7 +6,7 @@ export default function Todays() {
           Today´s Highlights
         </h1>
       </div>
-      <div className="grid md:flex md:flex-wrap gap-8">
+      <div className="flex flex-wrap gap-8">
         <div className="sqContent bg-slate-800 flex flex-col justify-center items-center h-[16rem] w-[28rem]  ">
           <span className="text-xl font-bold">Wind Status</span>
           <div className="flex py-8">
