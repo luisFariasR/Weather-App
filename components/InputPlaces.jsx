@@ -9,7 +9,7 @@ export default function InputPlaces({ setModalOpen }) {
           Search for Places
         </button>
         <img
-          onClick={() => setModalOpen(true)}
+          onClick={() => setShowCity(true)}
           src="/location.svg"
           alt="location-icon"
           className="bg-slate-500 h-[2.5rem] hover:cursor-pointer rounded-3xl"

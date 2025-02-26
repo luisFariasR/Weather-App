@@ -9,7 +9,7 @@ export default function Modal({setModalOpen}) {
       <div className="flex justify-around">
         <div className="flex border-[2px] border-white ">
           <div className="p-2">
-            <img src="/search.svg" alt="search-icon" className="h-8" />
+            <img src="/search.svg" alt="search-icon" className=" localIcon h-8" />
           </div>
           <input
             className="text-white outline-none "

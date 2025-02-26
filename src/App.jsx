@@ -7,12 +7,14 @@ import Todays from "../components/Todays";
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
+  const [showCity, setShowCity] = useState(false);
+  
   return (
     <>
       <div className="bg-slate-900 flex flex-col md:flex-row">
         <div className="w-full md:w-[30%] relative ">
           {modalOpen && <Modal setModalOpen={setModalOpen} />}
-          <InputPlaces setModalOpen={setModalOpen} />
+          <InputPlaces setModalOpen={setModalOpen} setShowCity={setShowCity} />
           <ActualWeather />
         </div>
         <div className="md:w-[70%] bg-slate-950">

@@ -1,6 +1,6 @@
 export default function Todays() {
   return (
-    <div className="bg-slate-950 text-white flex flex-col pl-20  pt-15 pb-8">
+    <div className="bg-slate-950 text-white flex flex-col pl-8 md:pl-20  pt-15 pb-8">
       <div className="pb-6">
         <h1 className="text-white font-semibold text-3xl">
           Today´s Highlights
